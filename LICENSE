@@ -1,21 +1,968 @@
-MIT License
+──────────────────────────────
+🌸  ALICE ASSISTENT OFFICIAL INFO
+──────────────────────────────
 
-Copyright (c) 2025 XyrooRynzz
+👨‍💻 Developer  : XyrooRynzz  
+📜 Script Asli  : Alice Assistent  
+🗓️ Dibuat       : 02 Juli 2023  
+🛍️ Rilis Resmi  : 07 Juli 2024  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+🌐 REST API      : https://aliceeapis.my.id  
+📁 CDN / Uploader: https://cdn.aliceeapis.my.id
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+──────────────────────────────
+🚀 CARA MENJALANKAN SCRIPT
+──────────────────────────────
+1. Buka panel kalian.  
+2. Upload file script di menu ""Files"".  
+3. Klik titik tiga (⋮) → pilih ""Unarchive"".  
+4. Masuk ke menu ""Startup"".  
+   - Jika Node.js masih versi 18, ubah ke versi 20 atau 23.  
+     (Disarankan Node.js versi di atas 22)
+5. Scroll ke bawah dan lihat ""Command Run"":  
+   - Jika masih tertulis `npm start`, ubah jadi `npm install`.
+6. Pergi ke ""Console Panel"", lalu klik ""Start"".  
+   - Tunggu hingga muncul teks *“60 second ago”*.
+7. Kembali ke ""Startup"", ubah `npm install` ke `npm start`.  
+8. Jalankan kembali lewat ""Console"".  
+   ✅ Selesai, bot siap digunakan.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+──────────────────────────────
+⚙️ PANDUAN SETTING
+──────────────────────────────
+Edit file ""AliceSet.js"" untuk pengaturan dasar:
+
+- `global.AliceBot` → Nomor bot kalian 584266542826
+- `global.owner` → Nomor owner utama 25779147702 
+- `global.botname` → Nama bot  vinzzbot
+
+- `global.ownername` → Nama owner  vinzz
+- Lainnya opsional, bisa kalian ubah sesuai kebutuhan
+
+──────────────────────────────
+📌 RULES (PERATURAN)
+──────────────────────────────
+❌ Dilarang menjual script (kecuali reseller resmi)  
+✅ Boleh recode/rename script  
+🗓️ Update rutin setiap tanggal 10  
+🚫 Dilarang menggunakan bot publik / open join  
+☑️ Nomor wajib di-ACC untuk masuk grup reseller  
+💼 Diperbolehkan jual jasa sewa bot (sewabot)  
+⚠️ Jika sudah menjadi member/reseller Alice:  
+   - Dilarang keras melakukan rip/scam  
+   - Jika ada laporan penipuan, langsung dihapus tanpa kompensasi  
+   → *Ini merupakan rules utama Alice dan wajib dipatuhi.*
+
+──────────────────────────────
+⚠️ LARANGAN PENYUNTINGAN (WAJIB DIBACA)
+──────────────────────────────
+""DILARANG KERAS"" mengubah atau mengedit file-file berikut:
+- `package.json` (library bawaan sistem)  
+- `index.js`  
+- `readme.md`
+Langkah ini dilakukan demi keamanan, stabilitas, dan pencegahan penyalahgunaan script.
+
+──────────────────────────────
+🔧 JIKA TERJADI KESALAHAN / FILE TEREDIT
+──────────────────────────────
+1. Kembalikan file yang diubah ke versi asli (re-upload file original).  
+   - Gunakan file asli dari ""CDN resmi:"" https://cdn.aliceeapis.my.id  
+2. Jika tidak punya file asli, hubungi developer untuk bantuan:  
+   - Telegram: https://t.me/XyrooRynzz  
+3. Jangan pernah mengunduh patch/script dari luar sumber resmi.  
+4. Jika akses terkunci, hubungi admin grup resmi untuk verifikasi dan pemulihan.
+
+──────────────────────────────
+🛒 REKOMENDASI PANEL & PROMO MEMBER
+──────────────────────────────
+💡 ""Rekomendasi pembelian panel:""
+Sangat disarankan beli panel langsung ke ""XyrooRynzz""  
+– Kualitas terjamin, uptime tinggi, dan dukungan penuh untuk user Alice Assistent.  
+
+🔥 ""Promo spesial untuk member Alice!""  
+Setiap hari ada ""promo unlimited 30 hari hanya 10K fullgar"" 💥  
+> Promo hanya berlaku untuk member resmi Alice dan pembelian melalui XyrooRynzz.  
+
+📈 ""Upgrade Reseller & Owner:""  
+• Untuk menjadi ""reseller resmi"", langsung hubungi ""XyrooRynzz""  
+• Bila ingin naik menjadi ""owner Alice"", bisa juga langsung tanyakan ke ""XyrooRynzz""  
+→ Semua proses resmi dan transparan melalui kontak resmi yang tercantum di bawah.
+
+──────────────────────────────
+📢 INFORMASI TAMBAHAN
+──────────────────────────────
+• Semua update resmi hanya diumumkan di ""Telegram""  
+• Tidak ada update melalui WhatsApp atau platform lain  
+• Semua admin grup ""Alice Updated"" sudah terverifikasi dan aman untuk transaksi
+
+──────────────────────────────
+🔗 LINK GRUP TELEGRAM
+──────────────────────────────
+📡 Grup Update   : https://t.me/+i4EeHgTZFjAyYjRl  
+💾 Grup Database : https://t.me/+E_S9ffzReIw0MDc1
+
+──────────────────────────────
+👑 INFO OWNER & KONTAK RESMI
+──────────────────────────────
+📞 Telegram Utama     : https://t.me/XyrooRynzz  
+📢 Channel Informasi  : https://t.me/xyrooinformations  
+💬 Channel Testimoni  : https://t.me/xyrootestimoni  
+💚 Channel WhatsApp   : https://whatsapp.com/channel/0029VamvtL2ADTO7ikBeNe1E  
+
+👤 Developer Resmi © XyrooRynzz 2025  
+
+──────────────────────────────
+💖 TERIMA KASIH UNTUK SEMUA MEMBER
+──────────────────────────────
+Terima kasih kepada seluruh ""member dan reseller Alice""  
+yang telah mempercayai, mendukung, dan membeli ""Alice Assistent"".  
+Berkat kalian, Alice terus berkembang dan menjadi lebih baik setiap harinya.  
+Semoga selalu membawa manfaat, keberkahan, dan kesuksesan untuk kita semua 🌸
+
+──────────────────────────────
+//═══════════════════════════════════════════════//
+//           🚀 Alice Assistent - Bot WhatsApp Canggih           //
+//═══════════════════════════════════════════════//
+//
+//   🤖 Powered By XyrooRynzz
+//   © XyrooRynzz 2022 - 2026
+//
+//   📌 Source & Official Contact:
+//   ➤ Telegram : t.me/XyrooRynzz
+//   ➤ Gmail    : xyroorynzz@gmail.com
+//   ➤ Github   : github.com/xyroorynzz
+//
+//   📢 Telegram Channels:
+//   ➤ Utama : t.me/xyrooinformations
+//   ➤ Testi : t.me/xyrootestimoni
+//
+//───────────────────────────────────────────────//
+// 📖 PANDUAN MEMBACA FILE README.MD
+//───────────────────────────────────────────────//
+//
+//   📂 File readme.md berisi panduan lengkap:
+//   • Cara menjalankan script Alice Assistent
+//   • Aturan & informasi penting
+//   • File yang boleh/tidak boleh diubah
+//   • Kontak & promo resmi dari XyrooRynzz
+//
+//   💡 Cara membacanya:
+//   1. Buka panel / file manager kalian
+//   2. Masuk ke direktori utama script
+//   3. Klik file "readme.md"
+//   4. Pilih "View" atau "Edit" untuk melihat isi panduan
+//
+//   🧠 Disarankan membaca readme.md terlebih dahulu
+//   sebelum menjalankan atau mengedit script.
+//
+//───────────────────────────────────────────────//
+//
+//   ⚡ Fast • Secure • Automated • Stylish ⚡
+//
+//═══════════════════════════════════════════════//
+//
+// 📈━━━━━━━━━━━━━━━━━━━ [ © XyrooRynzz ] ━━━━━━━━━━━━━━━━━━━📉//
+
+🎉✨ UPDATE TERBARU V16 ✨🎉
+📅 10 november 2025
+🌐 Base XyrooRynzz | 🤖 Powered By Alice Assistant
+© 2022 - 2026
+
+📌 Official Contact
+✈️ Telegram : https://t.me/XyrooRynzz
+📦 Channel Tele : https://t.me/xyrooinformations
+📦 Channel WA : https://whatsapp.com/channel/0029Vb7M7jAIXnlhLZxpWT3K
+
+══════════════════
+
+🚀 Perubahan & Pembaruan Utama
+• menghapus connection telegram
+• mengganti sebagian api alice ke api lain
+• menambahkan button di fitur totalfitur
+• update baileys terbaru agar support tagswgroup dan button quickreply
+• update clean system otomatis agar file penting tidak terhapus
+
+══════════════════
+
+🌟 Penambahan Fitur Baru
+• susunkata
+• asahotak
+• tebak game
+• tebak gambar
+• swgroup
+• tofigure
+• toanime
+• tochibi
+• toghibli
+• tojepang
+• tohijab
+• tomirror
+• topacar
+• toreal
+• totua
+• totato
+• toblur
+• tovintage
+• tozombie
+• removeclothes
+
+══════════════════
+
+🗑️ Fitur yang Dihapus
+• tobotak
+• toblack
+• togreenpink
+• editimage
+• deepfake
+
+══════════════════
+
+🔧 Perbaikan Fitur Lama
+• tourl
+
+══════════════════
+
+⚡ Powered By Alice Assistant
+© XyrooRynzz 2025 //═══════════════════════════════════════════════//
+//           🚀 Alice Assistent - Bot WhatsApp Canggih           //
+//═══════════════════════════════════════════════//
+//
+//   🤖 Powered By XyrooRynzz
+//   © XyrooRynzz 2022 - 2026
+//
+//   📌 Source & Official Contact:
+//   ➤ Telegram : t.me/XyrooRynzz
+//   ➤ Gmail    : xyroorynzz@gmail.com
+//   ➤ Github   : github.com/xyroorynzz
+//
+//   📢 Telegram Channels:
+//   ➤ Utama : t.me/xyrooinformations
+//   ➤ Testi : t.me/xyrootestimoni
+//
+//───────────────────────────────────────────────//
+// 📖 PANDUAN MEMBACA FILE README.MD
+//───────────────────────────────────────────────//
+//
+//   📂 File readme.md berisi panduan lengkap:
+//   • Cara menjalankan script Alice Assistent
+//   • Aturan & informasi penting
+//   • File yang boleh/tidak boleh diubah
+//   • Kontak & promo resmi dari XyrooRynzz
+//
+//   💡 Cara membacanya:
+//   1. Buka panel / file manager kalian
+//   2. Masuk ke direktori utama script
+//   3. Klik file "readme.md"
+//   4. Pilih "View" atau "Edit" untuk melihat isi panduan
+//
+//   🧠 Disarankan membaca readme.md terlebih dahulu
+//   sebelum menjalankan atau mengedit script.
+//
+//───────────────────────────────────────────────//
+//
+//   ⚡ Fast • Secure • Automated • Stylish ⚡
+//
+//═══════════════════════════════════════════════//
+//
+// 📈━━━━━━━━━━━━━━━━━━━ [ © XyrooRynzz ] ━━━━━━━━━━━━━━━━━━━📉//
+
+const axios = require('axios');
+
+async function muslimai(query) {
+    const searchUrl = 'https://www.muslimai.io/api/search'; // Thanks To ShannModerz
+    const answerUrl = 'https://www.muslimai.io/api/answer';
+
+    const headers = {
+        'Content-Type': 'application/json'
+    };
+
+    try {
+        const searchResponse = await axios.post(searchUrl, { query }, { headers });
+
+        if (!searchResponse.data || searchResponse.data.length === 0) {
+            return { error: "Maaf, tidak ditemukan jawaban yang relevan." };
+        }
+
+        const sources = searchResponse.data.map(item => ({
+            title: item.title || "Tidak ada judul",
+            url: item.url || "Tidak ada URL"
+        }));
+
+        const passages = searchResponse.data.map(item => item.content).join('\n\n');
+
+        const answerData = {
+            prompt: `Gunakan ayat-ayat berikut untuk menjawab pertanyaan dengan sebaik mungkin sebagai ahli Al-Qur'an kelas dunia. Jangan menyebutkan bahwa Anda diberikan referensi ayat dalam jawaban Anda:\n\n${query}\n\n${passages}`
+        };
+
+        const answerResponse = await axios.post(answerUrl, answerData, { headers });
+
+        return {
+            answer: answerResponse.data,
+            sources
+        };
+    } catch (error) {
+        console.error("Error MuslimAI:", error.response ? error.response.data : error.message);
+        return { error: "Terjadi kesalahan saat mengambil data dari MuslimAI." };
+    }
+}
+
+module.exports = { muslimai };
+[
+{"url":"https://i.pinimg.com/280x280_RS/dc/e0/13/dce013e163417307dcf2f4a5e1f39ad8.jpg"},
+{"url":"https://i.pinimg.com/236x/00/c0/b5/00c0b519a1747dd9131b798c7e0b9a7a.jpg"},
+{"url":"https://i.pinimg.com/736x/8c/71/b4/8c71b427f3bd29fffd666faa25d60609.jpg"},
+{"url":"https://i.pinimg.com/originals/26/64/9d/26649dc61de207490f7ca99b0fa391de.jpg"},
+{"url":"https://i.pinimg.com/736x/05/00/42/05004293e40ea9d8e3361f15fbad50bb.jpg"},
+{"url":"https://i.pinimg.com/474x/c8/a1/d8/c8a1d8a53ad702b46f431dce699febef.jpg"},
+{"url":"https://i.pinimg.com/236x/96/05/6c/96056c32905c0790a99dade5e4a4fb9a.jpg"},
+{"url":"https://i.pinimg.com/originals/86/a9/bd/86a9bd296a5ea476877985bccc0eeb0d.jpg"},
+{"url":"https://i.pinimg.com/474x/f0/18/3c/f0183c8bb0341c1a381ee2d08b8a6ff0.jpg"},
+{"url":"https://i.pinimg.com/474x/71/69/f2/7169f27907a5eff90252ad243808ff3a.jpg"},
+{"url":"https://i.pinimg.com/736x/30/79/ec/3079ec9602b5a7d2c052848ab5b5664a.jpg"},
+{"url":"https://i.pinimg.com/originals/a7/29/f3/a729f305c31e3cb23eb329d828fcb742.jpg"},
+{"url":"https://i.pinimg.com/originals/69/04/c3/6904c3c7c907a79431373036b7a8711d.jpg"},
+{"url":"https://i.pinimg.com/736x/1d/e4/64/1de4642e8b182347aa5d7272734e3831.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/f9/cc/2c/f9cc2cd1c195f57a91db5ad4c1f7d699.jpg"},
+{"url":"https://i.pinimg.com/236x/73/2f/88/732f88262bcbdf7004a92c8c5b8bf515.jpg"},
+{"url":"https://i.pinimg.com/564x/5a/50/70/5a5070206d76dc5988ec068f46084a5d.jpg"},
+{"url":"https://i.pinimg.com/564x/03/1a/77/031a773dac089f92243198d929971d5b.jpg"},
+{"url":"https://i.pinimg.com/originals/00/bf/1f/00bf1fe39a252fd39ad45776c643b819.jpg"},
+{"url":"https://i.pinimg.com/736x/5e/f3/ee/5ef3eeed199249a59e08642aa2d2207c.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/31/29/f6/3129f6cbc707d62570c0387ff97edf99.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/c9/83/06/c983068c116ca6aa3efae7ae1e6bfb97.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/ce/26/56/ce2656231250da89150ee60e06f62b89.jpg"},
+{"url":"https://i.pinimg.com/originals/16/db/7b/16db7b4e5164fa8f5088b506c402e73c.jpg"},
+{"url":"https://i.pinimg.com/736x/69/c0/7a/69c07a5d476944709b105e3f0e73d9ae.jpg"},
+{"url":"https://i.pinimg.com/236x/77/e2/78/77e278a3110afc9e950ec48b0456bd41.jpg"},
+{"url":"https://i.pinimg.com/736x/4b/3d/64/4b3d64f84344c9554954bade7a693420.jpg"},
+{"url":"https://i.pinimg.com/236x/a0/7e/53/a07e5380e72736854ff7092933fc3fd0.jpg"},
+{"url":"https://i.pinimg.com/originals/c1/e2/79/c1e27959e8e46576494e740ac3fef4b3.jpg"},
+{"url":"https://i.pinimg.com/originals/ee/52/37/ee5237610aa24f278abb8f807e6fa685.jpg"},
+{"url":"https://i.pinimg.com/736x/a3/89/09/a389098f371f4c80194eced6f6f1dac3.jpg"},
+{"url":"https://i.pinimg.com/originals/f3/96/2e/f3962ebd97aa51f9e1f330791304a27c.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/c8/c2/2f/c8c22f25f9df9bf3ab03019e142d19d1.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/8a/e4/a2/8ae4a201e9b8badb804cfb3b65982728.jpg"},
+{"url":"https://i.pinimg.com/736x/d4/4c/7a/d44c7af872a27eab8d54e70f4dfafbb0.jpg"},
+{"url":"https://i.pinimg.com/originals/eb/5c/b2/eb5cb2ddcd8f4708bf4144f658d591c2.jpg"},
+{"url":"https://i.pinimg.com/564x/77/bb/10/77bb10c65f73e74ad164010b1a96554f.jpg"},
+{"url":"https://i.pinimg.com/236x/7e/14/9e/7e149e1fbb817ede1e489f5512cbc7dd.jpg"},
+{"url":"https://i.pinimg.com/originals/16/de/73/16de739b9ead960cf60bd2029847b958.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/c7/d8/2d/c7d82dfeb55aec698e9f939171faa1a7.jpg"},
+{"url":"https://i.pinimg.com/originals/b3/b4/e0/b3b4e0cf63daf5bdbc1c4da23da3c7cc.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/70/8e/92/708e920318c59de32f7d89ab6d4701fa.jpg"},
+{"url":"https://i.pinimg.com/736x/9e/a3/7b/9ea37bb0330d03d87a8d14a429291c6e.jpg"},
+{"url":"https://i.pinimg.com/originals/45/26/a0/4526a0eef6529eaf8e809751e0e4809b.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/cc/a9/49/cca94970d39e5e3df8da246ef44833a0.jpg"},
+{"url":"https://i.pinimg.com/564x/ae/01/94/ae019489d096e88083c2a2b875f7557a.jpg"},
+{"url":"https://i.pinimg.com/736x/6b/41/a8/6b41a87deef4a76a904be176c5e4a75e.jpg"},
+{"url":"https://i.pinimg.com/564x/a0/33/6d/a0336d6ed85f329059eae57fc5e2501e.jpg"},
+{"url":"https://i.pinimg.com/736x/59/82/f0/5982f0dcf9f0bf3b3e6c626eb3bc5877.jpg"},
+{"url":"https://i.pinimg.com/564x/3c/4e/66/3c4e66ee61c3844bd31909a8cce1c9d4.jpg"},
+{"url":"https://i.pinimg.com/originals/82/3e/45/823e454fe6f44d56676d5bae778a0511.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/f5/00/55/f500557d046cd40de346015973255951.jpg"},
+{"url":"https://i.pinimg.com/originals/87/d3/32/87d3326039e7cd064e0ece96ef48f8e0.jpg"},
+{"url":"https://i.pinimg.com/236x/e7/f0/5a/e7f05a8d2b374053836d5c1d04fce0f5.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/d3/96/fb/d396fb3e1a82dd19b4ede130df01a0be.jpg"},
+{"url":"https://i.pinimg.com/564x/ce/c3/01/cec301d511fa90a03132e864a5c4802d.jpg"},
+{"url":"https://i.pinimg.com/originals/12/82/72/128272b11617745e53e0adb834aa0ee4.jpg"},
+{"url":"https://i.pinimg.com/736x/3d/48/66/3d4866d800075c42fddba25aa2a5dada.jpg"},
+{"url":"https://i.pinimg.com/originals/aa/a0/51/aaa0513adb0d6d69d2559c499caa6658.jpg"},
+{"url":"https://i.pinimg.com/736x/f1/9a/21/f19a211124679565dfb74cee8e43b070.jpg"},
+{"url":"https://i.pinimg.com/originals/1c/62/ce/1c62ce261cd133645fd344bc87fcf947.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/26/c1/45/26c145484dd2bfc23a191a31cde0b1d2.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/1b/2e/33/1b2e3341debc748eb919880e2e725caf.jpg"},
+{"url":"https://i.pinimg.com/originals/7b/df/e6/7bdfe6870d38bfe32217687ac764b73f.jpg"},
+{"url":"https://i.pinimg.com/236x/d7/be/1c/d7be1cbefcfa89bf0db5172fdada0a8f--jellal-fairytail.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/60/9d/05/609d05a174162208ae1b445e3588eee5.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/5a/58/b6/5a58b6b6c3f9fce5fa7607f7b0d2c6bd.jpg"},
+{"url":"https://i.pinimg.com/564x/c2/d5/eb/c2d5eb37e4156416cc3c312cd286e975.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/91/82/89/918289aa65805ef5b9642f1a193ef9fd.jpg"},
+{"url":"https://i.pinimg.com/736x/fa/ea/14/faea1456e5d8cb90428cd6919589644c.jpg"},
+{"url":"https://i.pinimg.com/originals/6d/d4/52/6dd452f1ba7ea1dd0b024ebc8b135b2f.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/5d/47/dd/5d47dd91ddad7fc0aa758ebd7632a59c.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/7a/90/6f/7a906f4a7b7c465e3d96d1820cf81262.jpg"},
+{"url":"https://i.pinimg.com/736x/48/8b/2f/488b2fae137ff8c3d07ce4fcaa3a8ff2.jpg"},
+{"url":"https://i.pinimg.com/236x/0a/fa/68/0afa680e2d8ea3851fff2bc45d88a615.jpg"},
+{"url":"https://i.pinimg.com/originals/a0/d7/76/a0d776890f9bb92e15fcd68c5c364e3c.jpg"},
+{"url":"https://i.pinimg.com/236x/b7/1a/41/b71a410d425a37d314100eea90bc0231--fairy-tail-couples-anime-love.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/29/7d/56/297d56ad4abec2b60744ca42c9f2c8d5.jpg"},
+{"url":"https://i.pinimg.com/736x/de/d8/20/ded82074f46f6bd4140c852417148e90.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/be/14/b6/be14b6bf498beb621a69992045569afc.jpg"},
+{"url":"https://i.pinimg.com/originals/81/d9/d8/81d9d8099718ad250cb00107430aba04.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/29/0d/94/290d941059844e9e499161241c2d8dee.jpg"},
+{"url":"https://i.pinimg.com/736x/7a/2c/fe/7a2cfe502fb0728825a16dcdf6c7a33a.jpg"},
+{"url":"https://i.pinimg.com/originals/f9/23/73/f923739cdd77fa008885fa30f8951b26.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/53/8b/08/538b0823f693344f69c607224e05e411.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/3b/f9/dc/3bf9dc48ec2f81d87d4453568e3be628.jpg"},
+{"url":"https://i.pinimg.com/originals/19/98/ed/1998edf0d0b5a46a2080d8553789eb13.jpg"},
+{"url":"https://i.pinimg.com/originals/c0/76/7b/c0767b61a3364035afcf3925c9181bd4.jpg"},
+{"url":"https://i.pinimg.com/474x/98/2c/9e/982c9ee9ad7e2708f28309cef0fef483.jpg"},
+{"url":"https://i.pinimg.com/originals/0f/71/62/0f7162b018419615f9ebc25bfade3334.jpg"},
+{"url":"https://i.pinimg.com/236x/c3/d2/f1/c3d2f19591f20ca4b721173a42580254.jpg"},
+{"url":"https://i.pinimg.com/564x/50/fb/fe/50fbfe4484f1329eff526a9406608992.jpg"},
+{"url":"https://i.pinimg.com/736x/94/bc/05/94bc056bc9dc684660e82084605a7b32.jpg"},
+{"url":"https://i.pinimg.com/736x/14/25/f3/1425f35b1ca40551c0fa70881dfe1147.jpg"},
+{"url":"https://i.pinimg.com/474x/e8/75/6f/e8756f2a3a62c01fd37daa58afb85a32.jpg"},
+{"url":"https://i.pinimg.com/originals/26/8b/9d/268b9d6ed3fb6646f7a3640bb1140e11.png"},
+{"url":"https://i.pinimg.com/736x/fe/23/0e/fe230ebb00eb5e05b9e6fa00221c5915.jpg"},
+{"url":"https://i.pinimg.com/474x/5b/07/df/5b07df4748394c1c2509116a75cea3a6.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/4c/84/09/4c84090ffe08d8eb0b0c5739e172ef02.jpg"},
+{"url":"https://i.pinimg.com/originals/08/69/74/0869747e3a840451ad1471b07f65fa4e.jpg"}
+][
+{"url":"https://i.pinimg.com/736x/cf/7d/74/cf7d741fecb5e2c6abe1b9b237b30b04.jpg"},
+{"url":"https://i.pinimg.com/736x/b5/b2/62/b5b2620e392e74139487c209c3b03dc2.jpg"},
+{"url":"https://i.pinimg.com/736x/b6/b4/0b/b6b40b6ae0e0123adc040d16d4b05348.jpg"},
+{"url":"https://i.pinimg.com/originals/e3/30/66/e33066f3cdbddd7ba3e37d2d576e8b66.jpg"},
+{"url":"https://i.pinimg.com/474x/7a/72/eb/7a72ebd743f1aa0df55965e6856d02c6.jpg"},
+{"url":"https://i.pinimg.com/originals/9b/2d/65/9b2d652e8f9742d6e6767a5eb3424df6.png"},
+{"url":"https://i.pinimg.com/originals/ee/c1/d8/eec1d883e44ef0a61d11fc6fe3c6d827.jpg"},
+{"url":"https://i.pinimg.com/736x/d0/2f/49/d02f4926e0f7b32685fcce4203752532.jpg"},
+{"url":"https://i.pinimg.com/564x/b4/3d/64/b43d641d0a624008996a01bf64f411d1.jpg"},
+{"url":"https://i.pinimg.com/236x/a4/ad/52/a4ad52b80ea5538d0cc743c95ecca40f.jpg"},
+{"url":"https://i.pinimg.com/originals/de/d4/61/ded461956b110d610f1190dcae5cd59f.jpg"},
+{"url":"https://i.pinimg.com/564x/8e/5c/f0/8e5cf0a7026d0a8b2e94693d5bcf9321.jpg"},
+{"url":"https://i.pinimg.com/originals/b5/02/bc/b502bc59d17ae464560202d1e000a11a.jpg"},
+{"url":"https://i.pinimg.com/originals/49/6e/4b/496e4b7de7edaa6e03c45250f4f516fc.jpg"},
+{"url":"https://i.pinimg.com/originals/4e/dd/43/4edd430da39fb3f969865fb377878879.jpg"},
+{"url":"https://i.pinimg.com/originals/82/8c/5c/828c5c9543010265c82cb3e9a7e22539.jpg"},
+{"url":"https://i.pinimg.com/236x/2d/87/0f/2d870ffe100b76810577f90fe8f4c121.jpg"},
+{"url":"https://i.pinimg.com/564x/c7/9c/69/c79c6998a87196995b8370bc45344ffd.jpg"},
+{"url":"https://i.pinimg.com/474x/ca/5f/70/ca5f708da44d1e5b74d604f91d2940b9.jpg"},
+{"url":"https://i.pinimg.com/originals/3c/4f/fb/3c4ffbb99fda42f0cb0bd8a5a8407298.jpg"},
+{"url":"https://i.pinimg.com/originals/c6/73/13/c67313758a2eda2cb063c419b20c4065.jpg"},
+{"url":"https://i.pinimg.com/736x/37/74/13/3774139f776a42d59d28f56a783fa3dc.jpg"},
+{"url":"https://i.pinimg.com/736x/b6/1e/2d/b61e2d7cdd166b63c0e0f29a90ccdca2.jpg"},
+{"url":"https://i.pinimg.com/736x/c9/14/e6/c914e6d3e52c218348a2e0b9581a5d9a.jpg"},
+{"url":"https://i.pinimg.com/originals/7d/cd/4e/7dcd4eedebe7da3d4e9567ede11439e8.jpg"},
+{"url":"https://i.pinimg.com/736x/30/3a/db/303adb62a2e5fe179f698ff992520420.jpg"},
+{"url":"https://i.pinimg.com/736x/db/86/c6/db86c635ac3ae10373ff460eea4ec7fe.jpg"},
+{"url":"https://i.pinimg.com/564x/aa/d0/89/aad089b60695808ef7f3d86550907410.jpg"},
+{"url":"https://i.pinimg.com/736x/d9/fb/a8/d9fba8e7ae331cbe83bd0dbb8697e15f.jpg"},
+{"url":"https://i.pinimg.com/originals/05/58/b4/0558b44e6fb2afaaa22db18adcbc5f30.jpg"},
+{"url":"https://i.pinimg.com/736x/97/5c/dd/975cdd87fe34a5832f07b8e17d5edd1d.jpg"},
+{"url":"https://i.pinimg.com/originals/f0/46/e0/f046e0147179103d0d6c42bb0a77e8e6.png"},
+{"url":"https://i.pinimg.com/originals/9a/76/8b/9a768b08d31d07e30db78ee24be8ea62.jpg"},
+{"url":"https://i.pinimg.com/originals/42/ca/20/42ca20ce567b97ac89eec4e7ed79f1e1.png"},
+{"url":"https://i.pinimg.com/236x/37/a7/33/37a7333ff01f4691a23fbaee1abffb58.jpg"},
+{"url":"https://i.pinimg.com/736x/06/4a/7f/064a7ff14a04fd8bb624e075568213ba.jpg"},
+{"url":"https://i.pinimg.com/originals/7c/a0/66/7ca0669c73078cad874e27e7e20e2d14.jpg"},
+{"url":"https://i.pinimg.com/originals/6f/1b/3f/6f1b3fa3dcde574df7836d2e8a295a9f.jpg"},
+{"url":"https://i.pinimg.com/originals/bd/43/d1/bd43d1beba3c9888707ca91d0ac8ed85.png"},
+{"url":"https://i.pinimg.com/474x/62/65/a3/6265a32d6e32fcfd0231e1a1ada10016.jpg"},
+{"url":"https://i.pinimg.com/originals/67/e0/87/67e0879eac574ea3290ecbde629adb37.jpg"},
+{"url":"https://i.pinimg.com/originals/a5/bb/d5/a5bbd57f5b1b884f27aff0890de43216.jpg"},
+{"url":"https://i.pinimg.com/564x/9a/36/94/9a3694a6bd14e2294706b619b7879d41.jpg"},
+{"url":"https://i.pinimg.com/736x/f6/71/7d/f6717d0dffda72a01a51b8d437e05eba.jpg"},
+{"url":"https://i.pinimg.com/originals/9f/4c/50/9f4c508e6ff5f7a6f790980239a18497.png"},
+{"url":"https://i.pinimg.com/originals/1e/25/7f/1e257fd78c54bf3de6129d8ad38d39b6.png"},
+{"url":"https://i.pinimg.com/originals/13/c5/77/13c57739ad0cdc60fc8ff065f00ee9aa.png"},
+{"url":"https://i.pinimg.com/originals/c9/5e/03/c95e038b17d47a05289b1e951817fd04.jpg"},
+{"url":"https://i.pinimg.com/originals/82/e3/59/82e359ea27b9acf90359f6a2234af06d.jpg"},
+{"url":"https://i.pinimg.com/originals/8d/71/9d/8d719d260e8bb1ef1ac8c2db6f9ca301.jpg"},
+{"url":"https://i.pinimg.com/736x/72/f4/eb/72f4eb5b28e89035c10007125d67e7c3.jpg"},
+{"url":"https://i.pinimg.com/originals/b4/fe/35/b4fe35474c76728474d2ef6d92493a7e.jpg"},
+{"url":"https://i.pinimg.com/originals/b3/1b/50/b31b50676592389319594e04ab1cc54a.jpg"},
+{"url":"https://i.pinimg.com/originals/41/72/a3/4172a3f2212bd8fb33b12a39e1e5bcde.jpg"},
+{"url":"https://i.pinimg.com/originals/15/53/e3/1553e31681b77be72dd4dfe34e7ef5ff.jpg"},
+{"url":"https://i.pinimg.com/originals/4a/c6/64/4ac66497c0ef2ad7788be3042e45a418.jpg"},
+{"url":"https://i.pinimg.com/originals/ab/ff/e7/abffe7475bab7d1a91d2f45742f7753b.jpg"},
+{"url":"https://i.pinimg.com/474x/12/30/23/123023de1c90d7391356aa291226b3df.jpg"},
+{"url":"https://i.pinimg.com/originals/a3/eb/51/a3eb51e91236feeb47b6a192bc501edc.jpg"},
+{"url":"https://i.pinimg.com/originals/f0/7a/3e/f07a3e338ad35cad89254f81f430793a.jpg"},
+{"url":"https://i.pinimg.com/originals/52/c9/d1/52c9d1662b9980ea5828c15c6f2f40bc.jpg"},
+{"url":"https://i.pinimg.com/originals/e6/35/f0/e635f0a968870cfa1f61fe7c54294ebe.jpg"},
+{"url":"https://i.pinimg.com/originals/e1/58/5b/e1585bda44f7c2f53651188438883eca.jpg"},
+{"url":"https://i.pinimg.com/736x/07/1e/93/071e93d9e922000826e5b97c0125f3f3.jpg"},
+{"url":"https://i.pinimg.com/originals/75/a6/6a/75a66aa75bbbc5943de0982b28ce3a7d.png"},
+{"url":"https://i.pinimg.com/originals/81/c2/68/81c268fe66221cf4262b8596acce22bd.jpg"},
+{"url":"https://i.pinimg.com/originals/b9/f8/8c/b9f88c6b29df1bb69704164f9a1f71f0.jpg"},
+{"url":"https://i.pinimg.com/736x/bb/e4/9b/bbe49bc932cb327ebf32a4f09099a3f5.jpg"},
+{"url":"https://i.pinimg.com/originals/82/3d/c5/823dc5924e67e90e2c18f9388667f83d.jpg"},
+{"url":"https://i.pinimg.com/236x/75/d6/f4/75d6f4c8773e43d190597ce4fba88d08.jpg"},
+{"url":"https://i.pinimg.com/236x/ef/46/6b/ef466bdbb29a3b441afeb795f2e54c9a.jpg"},
+{"url":"https://i.pinimg.com/564x/8e/44/88/8e448838113866ee507bf57d4ebebedd.jpg"},
+{"url":"https://i.pinimg.com/originals/1f/f8/d7/1ff8d799952c720cb7e78aa058ac41f7.jpg"},
+{"url":"https://i.pinimg.com/originals/83/de/b7/83deb7d5108736a3703a21fbb574daa6.jpg"},
+{"url":"https://i.pinimg.com/originals/6a/ae/04/6aae043bd88448a6302ae0322053faee.jpg"},
+{"url":"https://i.pinimg.com/originals/4e/0b/62/4e0b62b3d42e3f2b4b021ebc60b12023.jpg"},
+{"url":"https://i.pinimg.com/originals/e3/55/3c/e3553cde950d823a5862b301df9adc29.png"},
+{"url":"https://i.pinimg.com/originals/53/a2/79/53a279fb4a12b715beee319a0c1343d6.png"},
+{"url":"https://i.pinimg.com/originals/4a/3d/01/4a3d0165a5d1a1ef2577a09057377184.jpg"},
+{"url":"https://i.pinimg.com/originals/df/aa/2c/dfaa2cb28ab4353732a2dfe2c20932eb.jpg"},
+{"url":"https://i.pinimg.com/564x/2e/3a/6c/2e3a6cd9e819e888d38cf70d0a117dbf.jpg"},
+{"url":"https://i.pinimg.com/originals/c4/32/7d/c4327df2c6d37f8426d93d352c48bd99.png"},
+{"url":"https://i.pinimg.com/originals/54/35/d6/5435d61e1811e8ae1f364095c3eb32ad.jpg"},
+{"url":"https://i.pinimg.com/736x/42/2d/05/422d05e07268257dbf0602f8417a16a1.jpg"},
+{"url":"https://i.pinimg.com/236x/f3/05/ce/f305ce7aa1e8622cb6634dea461a278a.jpg"},
+{"url":"https://i.pinimg.com/originals/e3/49/94/e34994b4aeec15a025cf95b622e286f8.png"},
+{"url":"https://i.pinimg.com/originals/30/1d/27/301d27cd014867f80c851877fa3a8bcc.jpg"},
+{"url":"https://i.pinimg.com/originals/cf/bb/4a/cfbb4a669cadaab18b19f5522722f3cb.jpg"},
+{"url":"https://i.pinimg.com/originals/cb/b2/0b/cbb20bf3a92499982daa0d1059d17790.jpg"},
+{"url":"https://i.pinimg.com/474x/fe/aa/22/feaa22b7f776fc988fb4ccbf2c539549.jpg"},
+{"url":"https://i.pinimg.com/originals/c9/ea/f7/c9eaf78967ed514f730e6d161b9ee1f9.png"},
+{"url":"https://i.pinimg.com/736x/26/ba/79/26ba79102b971a2da11349d7fd84fdc1.jpg"},
+{"url":"https://i.pinimg.com/736x/72/2c/9b/722c9bb59f65d1d3148f1b751c8ca7d5.jpg"},
+{"url":"https://i.pinimg.com/736x/6c/f3/04/6cf3041ebf6a8f7e4836c98837ea9609.jpg"},
+{"url":"https://i.pinimg.com/736x/86/80/77/8680778b298641c65d81dd0d1c0ee280.jpg"},
+{"url":"https://i.pinimg.com/originals/25/24/22/2524225fc756bc17f98f26d50ef342fa.jpg"},
+{"url":"https://i.pinimg.com/280x280_RS/dc/6e/53/dc6e53b48dd3de659bd43257056147a6.jpg"},
+{"url":"https://i.pinimg.com/736x/73/e0/fb/73e0fb7a2f1ab8a7216f076da3574d0f.jpg"},
+{"url":"https://i.pinimg.com/originals/d7/a4/ac/d7a4ac159dfac1fa0ac5b0d9114a025a.jpg"},
+{"url":"https://i.pinimg.com/originals/cd/ef/fc/cdeffc0bf155fe2c8c63561b437c6864.jpg"}
+  ]
+d{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688542864904683599/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688543620005101605/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688546517102886912/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688546519829315623/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688547270437765134/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688554574851735732/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688558096943153261/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688565021038346250/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688566273897922591/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688571436591349780/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688575588667228170/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688591580235432047/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688595228625600512/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688595980932743211/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688603160172167168/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688604542908366853/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688605171072237568/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688608696250662942/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688614614707339265/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688615114445946952/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688617632039305216/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688619527256277004/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688619771683799060/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688621662648008757/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688625686793027588/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688627448870338580/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688639665284186124/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688646712230674432/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688656527329853454/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688659424910639132/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688660682492608536/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688662697302425603/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688663957703098368/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688667479387406348/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688671262905466901/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688672009718071326/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688684321719975960/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688684448828751933/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688684473591529473/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688686084388814880/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688686234775715911/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688686460928655391/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688689234345066561/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688691999150178413/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688694894226702365/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688697284770136084/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688704335001026573/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688704585241853961/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688716167736459319/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688716541579100171/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688721200033169473/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688721703685193735/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688723214368505948/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688725229958201407/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688725608955379753/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688725997629210704/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688728249790103569/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688730388486815751/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688733409224294401/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688733535036899359/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688736179184467969/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688743485754703932/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688744239017885700/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688750279486734388/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688750906870726677/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688750914286387295/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688752167464730654/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688752793888096325/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688753424023552050/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688753807433269390/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688754303871090726/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688754974225596446/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688755436098289738/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688756697594069114/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688756948753317934/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688758211918168154/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688759345722163230/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688761357918535688/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688761503234654373/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688762110095786009/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688762117179965519/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688764123860697095/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688766776007196723/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688769034656809098/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688774705104420873/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688777593243435066/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688777726940676132/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688777855479316626/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688778108450766848/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688778220392415288/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688778472122089482/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688778596545724526/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688778612241072166/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688783137500823622/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688783633515151378/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688784266586357776/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688784392805810201/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688784514666856557/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688787414667624499/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688795975606730835/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688801133811990537/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688802392262705432/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688804785750933509/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688805791507153046/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688809697330856189/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688817749920710686/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688821020756279339/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688822032791633928/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688824418922922065/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688831968544161866/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688838766613495983/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688840909772685360/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688841411835068499/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688841489605722238/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688844439053008907/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688846323444744271/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688856138921279526/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688868164712398868/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688868793333841951/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688881885732012042/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688882134911287491/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688886544509042738/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688889434896203815/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688893600192659573/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688897370813104149/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688902673101225997/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688909576321630249/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688916246905094155/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688919140420944014/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688935756991037455/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688936637979557923/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688937644918308908/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688939410061787148/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688943686213435492/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688948972638830606/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688949099529371656/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688949209600360621/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688950357753331757/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688953639733035017/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688954131922026540/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688958295473520690/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688959041363640340/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688964076130533450/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688964082564595717/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688964084770668555/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688974525810868224/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688976036263886890/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688978931138822147/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688978934552985618/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688980314554368041/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688988749475872769/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688991268822581279/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688994039919542321/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/688997056123109425/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689011406611546117/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689012665648939055/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689017196701155359/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689030292597768260/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689035208032518210/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689051767648026710/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689057682992267264/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689062234365755392/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689064983975428106/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689066622060724254/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689074556559818760/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689082608096903258/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689088274161336362/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689088525148094504/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689091166104453145/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689097836478201911/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689098089952313627/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689099096564301923/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689099141728829446/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689099852327419935/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689102369883160642/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689102872519901191/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689103881359458377/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689108036815814728/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689113199118909471/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689114452750237790/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689121502763024404/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689124527409725440/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689127038740856887/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689130815304892422/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689131070150541402/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689135599009136694/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689135600288268314/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689139248695083165/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689139627139137537/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689141263068299277/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689141640484487173/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.com/attachments/688526480069885997/689142902143844379/AmistaAnime.jpg"},
+{"url":"https://cdn.discordapp.c[
+        {"url":"https://i.pinimg.com/originals/fc/3f/f4/fc3ff4c2982358967d77c8fee0e2ab65.jpg"},
+        {"url":"https://i.pinimg.com/originals/90/22/2b/90222b1b781d1f34d8cd00bb29c47fc0.jpg"},
+        {"url":"https://i.pinimg.com/originals/b9/21/65/b9216584efe6efa10c353c042c8d17ea.jpg"},
+        {"url":"https://i.pinimg.com/originals/07/5b/a0/075ba0fafcf4187744515bec95dce2b8.jpg"},
+        {"url":"https://i.pinimg.com/originals/86/c2/3a/86c23a5f4420327a089d3e8dad5ab3fa.jpg"},
+        {"url":"https://i.pinimg.com/originals/17/c8/2a/17c82a48718554727dbeb38ed6c2627c.jpg"},
+        {"url":"https://i.pinimg.com/1200x/77/32/fe/7732fe8cd3a036ee16ff9ea7c50bbcfe.jpg"},
+        {"url":"https://i.pinimg.com/564x/7c/2c/22/7c2c2236810f8939db66dec4f4e5cb32.jpg"},
+        {"url":"https://i.pinimg.com/originals/18/21/8d/18218de0ad5db217a8483244b18a7b34.jpg"},
+        {"url":"https://i.pinimg.com/236x/7d/60/c5/7d60c5f7cfa20a719d74240df5cd0ce1.jpg"},
+        {"url":"https://i.pinimg.com/originals/4b/0c/97/4b0c97454385333c7d6fd1e7c23bb34c.png"},
+        {"url":"https://i.pinimg.com/236x/0d/48/0f/0d480fa3eb6fa5b50241fefc6a531f38.jpg"},
+        {"url":"https://i.pinimg.com/originals/6e/f4/81/6ef481947a9b89a2159a5236e63175c1.jpg"},
+        {"url":"https://i.pinimg.com/564x/b8/0f/b6/b80fb6bf2cfec0b8c7c0e8a02cf022d7.jpg"},
+        {"url":"https://i.pinimg.com/originals/30/c6/da/30c6daca8f2bffc5a402a9b77271bfdc.jpg"},
+        {"url":"https://i.pinimg.com/564x/5a/4e/0e/5a4e0ecd34fcb4d09839eab9948bc2b5.jpg"},
+        {"url":"https://i.pinimg.com/originals/da/95/58/da9558281b3335154b3e1998422c3a75.jpg"},
+        {"url":"https://i.pinimg.com/originals/02/3d/4c/023d4cd8efe9132bcf5b01965ffb1a18.jpg"},
+        {"url":"https://i.pinimg.com/474x/78/0c/e4/780ce47a75b3a8219371410458e52431.jpg"},
+        {"url":"https://i.pinimg.com/originals/23/87/72/238772209eab7431d339af4f67491e8c.jpg"},
+        {"url":"https://i.pinimg.com/originals/06/b4/ee/06b4ee7984c51dccc1b121d08b2275ec.jpg"},
+        {"url":"https://i.pinimg.com/originals/76/45/fc/7645fc4b6cf254277b91330d7b41dc6c.jpg"},
+        {"url":"https://i.pinimg.com/originals/68/0c/d8/680cd898f43e7573a4046a45bfba314b.jpg"},
+        {"url":"https://i.pinimg.com/1200x/59/25/07/592507dc13a8355e661eaeb73c442c6c.jpg"},
+        {"url":"https://i.pinimg.com/1200x/38/e7/16/38e7164b182ba340f9e1044546e67cb3.jpg"},
+        {"url":"https://i.pinimg.com/736x/98/03/91/98039151a533e9872a0b8df4cbc09d78.jpg"},
+        {"url":"https://i.pinimg.com/originals/22/49/92/2249929c79b15f6345d1c1584238df25.jpg"},
+        {"url":"https://i.pinimg.com/originals/82/63/87/826387b25b2064bf862725c85ea6db45.jpg"},
+        {"url":"https://i.pinimg.com/236x/d0/9a/d8/d09ad8c035baa4a65607b5bf6628af53.jpg"},
+        {"url":"https://i.pinimg.com/originals/07/07/fe/0707fe842ba20d9d6b4e95df391fc04d.jpg"},
+        {"url":"https://i.pinimg.com/1200x/78/1e/63/781e63e4b1a97f8c01b59eafa2ef9c8b.jpg"},
+        {"url":"https://i.pinimg.com/originals/93/ea/e7/93eae73f335ec559d048ed9a8b15b535.jpg"},
+        {"url":"https://i.pinimg.com/1200x/e2/b9/3e/e2b93efd0d5a2b2d4173069d731dd372.jpg"},
+        {"url":"https://i.pinimg.com/736x/79/e8/d4/79e8d48d70df411ed682b1c53b8ff6ec.jpg"},
+        {"url":"https://i.pinimg.com/originals/67/1d/98/671d98f78f9b3d08075cb5f570667ff3.jpg"},
+        {"url":"https://i.pinimg.com/736x/a5/b9/3e/a5b93e2be6dfa72d0eef9a00bd16f506.jpg"},
+        {"url":"https://i.pinimg.com/1200x/6b/eb/67/6beb6763f428578346ce4645939ace1d.jpg"},
+        {"url":"https://i.pinimg.com/1200x/69/37/96/693796b2de735a30026b41edb24f918a.jpg"},
+        {"url":"https://i.pinimg.com/originals/1f/d5/d7/1fd5d7e8ada73705f61f206794b08c09.jpg"},
+        {"url":"https://i.pinimg.com/564x/95/35/67/953567f4e60f4a599236f8c4f614f6da.jpg"},
+        {"url":"https://i.pinimg.com/564x/50/4d/96/504d9659b1dfd25c43fe078990fe7858.jpg"},
+        {"url":"https://i.pinimg.com/1200x/91/ed/c4/91edc4c8f0dbe3a1e7cc2dca326d6a24.jpg"},
+        {"url":"https://i.pinimg.com/736x/25/c1/4e/25c14e39fa184d7dc15d8ea31b781c0b.jpg"},
+        {"url":"https://i.pinimg.com/236x/88/b1/cc/88b1cc147868eb0c32075faed86fd150.jpg"},
+        {"url":"https://i.pinimg.com/564x/a5/1e/56/a51e5645a6f65245829aecf37d1f8524.jpg"},
+        {"url":"https://i.pinimg.com/736x/19/61/af/1961af6e38d790b5900db5add888a7d6.jpg"},
+        {"url":"https://i.pinimg.com/originals/ec/0d/7b/ec0d7b3dac29a9eb68cca10bf9ee9e7f.jpg"},
+        {"url":"https://i.pinimg.com/736x/9c/d0/69/9cd069a58e0dd660ac88e3c7523d4984.jpg"},
+        {"url":"https://i.pinimg.com/564x/1e/99/aa/1e99aa1ee1838c830cafab945af2e100.jpg"},
+        {"url":"https://i.pinimg.com/originals/2e/3c/10/2e3c1069a091dc7e2a0a3f9230f12a28.jpg"},
+        {"url":"https://i.pinimg.com/736x/5a/04/1d/5a041db625dd6edf0d8fc84169a389a4.jpg"},
+        {"url":"https://i.pinimg.com/originals/04/73/86/0473864eadb14e3277a7df5f7b748d8c.jpg"},
+        {"url":"https://i.pinimg.com/600x315/04/73/86/0473864eadb14e3277a7df5f7b748d8c.jpg"},
+        {"url":"https://i.pinimg.com/originals/af/0d/82/af0d82698bf5b6881774e16a2491d726.jpg"},
+        {"url":"https://i.pinimg.com/originals/50/2f/5a/502f5a064a96cd5d62c2fddd8ef49902.jpg"},
+        {"url":"https://i.pinimg.com/474x/63/b7/6e/63b76eeb63496d9c9c13274ea2e47f45.jpg"},
+        {"url":"https://i.pinimg.com/originals/eb/64/2d/eb642d4acb6ccbc7eb29cc3649193c08.jpg"},
+        {"url":"https://i.pinimg.com/474x/8f/1f/23/8f1f23cd2e7f74d33640864cfd76d42a.jpg"},
+        {"url":"https://i.pinimg.com/736x/28/6e/27/286e27d89e34de808d3ade15465b1289.jpg"},
+        {"url":"https://i.pinimg.com/1200x/39/51/a4/3951a4e966f7834a8384039bbc6fc4f0.jpg"},
+        {"url":"https://i.pinimg.com/236x/84/60/60/846060ea989af4b892fd0e70bac7a75d.jpg"},
+        {"url":"https://i.pinimg.com/236x/62/54/2d/62542d770fb5376d9e1c0480eb65331c.jpg"},
+        {"url":"https://i.pinimg.com/1200x/01/ef/01/01ef01c8f71f947092ab6ce482328438.jpg"},
+        {"url":"https://i.pinimg.com/originals/49/6a/0a/496a0a7042c23e9510a3f74e110bc1b4.jpg"},
+        {"url":"https://i.pinimg.com/236x/2d/43/66/2d4366a11895eb2ca909659501d7c77c.jpg"},
+        {"url":"https://i.pinimg.com/564x/48/a5/47/48a5476db09b1d4869c555cb041e6310.jpg"},
+        {"url":"https://i.pinimg.com/originals/d8/30/32/d8303249c673167efd241534f63f596b.jpg"},
+        {"url":"https://i.pinimg.com/originals/d2/13/1f/d2131f6595dfa5bfc8b740ea8c77bfe8.jpg"},
+        {"url":"https://i.pinimg.com/736x/5a/d5/44/5ad544df9f43974f790d5476596e5a00.jpg"},
+        {"url":"https://i.pinimg.com/474x/c9/97/34/c99734e00f0effbfe2eb27fa534d9806.jpg"},
+        {"url":"https://i.pinimg.com/originals/f6/c0/f0/f6c0f073676d404dae9be05879283117.jpg"},
+        {"url":"https://i.pinimg.com/originals/77/64/c5/7764c5c9b8f5f7bdc01a52ef16ebb046.jpg"},
+        {"url":"https://i.pinimg.com/originals/62/23/19/622319fa2c5cc886e3f876276f602ed4.jpg"},
+        {"url":"https://i.pinimg.com/originals/33/8e/1f/338e1f6407102543166742eafcfbb6ea.jpg"},
+        {"url":"https://i.pinimg.com/originals/48/b8/f4/48b8f44bea66ac097d1ec0ad6f718d62.jpg"},
+        {"url":"https://i.pinimg.com/1200x/19/fb/7b/19fb7b0abcd7151e0666660960c5590e.jpg"},
+        {"url":"https://i.pinimg.com/originals/25/a6/be/25a6be2d7e2f56e95765f5f6db46498c.jpg"},
+        {"url":"https://i.pinimg.com/736x/07/14/2d/07142d5f5e5375f720a439c01448ac29.jpg"},
+        {"url":"https://i.pinimg.com/236x/ea/02/b2/ea02b2ca4174b433e99f7c65f71c2b12.jpg"},
+        {"url":"https://i.pinimg.com/originals/6f/d6/b9/6fd6b9eb940b2794adaed9438d81f96c.jpg"},
+        {"url":"https://i.pinimg.com/474x/21/82/e2/2182e2d920030a65ff1c1f92a2ac209f.jpg"},
+        {"url":"https://i.pinimg.com/originals/8c/56/07/8c56074df9e7e96f31ad21cb4d90b546.jpg"},
+        {"url":"https://i.pinimg.com/1200x/eb/61/43/eb6143a784935b72c433ea7fdeff4a61.jpg"},
+        {"url":"https://i.pinimg.com/originals/4b/d0/3c/4bd03cbda5103c9454fddfb7fee7424a.jpg"},
+        {"url":"https://i.pinimg.com/originals/d5/e0/9b/d5e09b732f4295da62bb968c966c0fd9.jpg"},
+        {"url":"https://i.pinimg.com/564x/e4/0b/e9/e40be9f565384053f12983bbaabea3d6.jpg"},
+        {"url":"https://i.pinimg.com/236x/87/73/ef/8773ef783c447d6937a49bb52be45258.jpg"},
+        {"url":"https://i.pinimg.com/736x/4d/ab/a5/4daba5c6bdba4644b709d336bfd9b381.jpg"},
+        {"url":"https://i.pinimg.com/236x/49/af/b1/49afb119f8a94aa0d3baed9210630985.jpg"},
+        {"url":"https://i.pinimg.com/originals/2f/ff/47/2fff47bebd706ddfeb61b9475f767daf.jpg"},
+        {"url":"https://i.pinimg.com/736x/b9/c3/06/b9c3060dbfde8ba0fce8d0bc22a02639.jpg"},
+        {"url":"https://i.pinimg.com/236x/68/68/99/686899d0dad4e7c42459139365c80013.jpg"},
+        {"url":"https://i.pinimg.com/originals/a3/b6/db/a3b6dbb6b5b9d2b39c1fee61e59ed499.jpg"},
+        {"url":"https://i.pinimg.com/originals/04/22/63/04226303dee2b0750c1c1ee77afb73c5.jpg"},
+        {"url":"https://i.pinimg.com/474x/e3/f9/27/e3f927b49e76bebc9f8a8c56c6522570.jpg"},
+        {"url":"https://i.pinimg.com/originals/35/4f/e7/354fe7972b1f14ea0be06904f6a5271a.jpg"},
+        {"url":"https://i.pinimg.com/1200x/be/d5/cc/bed5cc9c1f6c8d3b4adabb37a16190d2.jpg"},
+        {"url":"https://i.pinimg.com/originals/a8/99/c7/a899c763e108b671aa6a23b080a9b07c.jpg"},
+        {"url":"https://i.pinimg.com/originals/39/e3/5d/39e35d1a1e25c48798c32c0898b4da36.jpg"},
+        {"url":"https://i.pinimg.com/564x/89/5c/73/895c734b855cd3e0f3854bcdb407587b.jpg"}
+]
+let handler = async (m, { Alice }) => {
+ await Alice.reply(m.chat, '👋 Halo! Plugin berhasil dipanggil.', m)
+}
+
+handler.help = ['halo']
+handler.tags = ['fun']
+handler.command = /^halo$/i
+
+module.exports = handler
+//————————————————————————//
+
+/*
+
+Base XyrooRynzz
+Powered By Alice Assistent
+© XyrooRynzz 2022 - 2026
+
+Source
+WhatsApp : https://wa.me/6281543496975
+Tele me : https://t.me/XyrooRynzz
+instagram : https://instagram.com/biionlyyone
+WhatsApp: https://whatsapp.com/channel/0029VaagYHwCnA82hDK7l31D
+
+*/
+
+//————————————————————————//
+let fs = require('fs')
+
+module.exports = {
+	type: 'owner',
+	command: ['sendplug'],
+	operate: async (context) => {
+		const {
+			Alice,
+			m,
+			q: text,
+			prefix,
+			command,
+            args,
+			reply
+		} = context;
+	if (!q) return reply(`*Example*: ${prefix + command} @tag/number tools/tagme.js`)
+	let who;
+				try {
+if (!isOwner) return reply('owner')				
+				if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender } catch (err) {
+				if (m.isGroup) who = args[0] + "@s.whatsapp.net"
+				}
+				if (!who) return reply(`tag/number ! ! !`)
+				if (!args[1]) return reply(`plugin (name)`)
+
+ const isValid = await Alice.onWhatsApp(q + "@s.whatsapp.net");
+ 	if (isValid.length == 0) {
+	 	return reply("Number not in whatsapp!");
+ 	}
+				var user_bot = await fs.readFileSync(`./Plugins/${args[1]}.js`)
+				Alice.sendMessage(who, {
+					document: user_bot,
+					caption: '© Xyroo Rynzz: ' + ' `'+args[1]+'`',
+					mimetype: 'document/application',
+					fileName: `${args[1]}`
+				})
+reply('Success sending file to :' + args[0])
+}}//═══════════════════════════════════════════════//
+//           🚀 Alice Assistent - Bot WhatsApp Canggih           //
+//═══════════════════════════════════════════════//
+//
+//   🤖 Powered By XyrooRynzz
+//   © XyrooRynzz 2022 - 2026
+//
+//   📌 Source & Official Contact:
+//   ➤ Telegram : t.me/XyrooRynzz
+//   ➤ Gmail    : xyroorynzz@gmail.com
+//   ➤ Github   : github.com/xyroorynzz
+//
+//   📢 Telegram Channels:
+//   ➤ Utama : t.me/xyrooinformations
+//   ➤ Testi : t.me/xyrootestimoni
+//
+//───────────────────────────────────────────────//
+// 📖 PANDUAN MEMBACA FILE README.MD
+//───────────────────────────────────────────────//
+//
+//   📂 File readme.md berisi panduan lengkap:
+//   • Cara menjalankan script Alice Assistent
+//   • Aturan & informasi penting
+//   • File yang boleh/tidak boleh diubah
+//   • Kontak & promo resmi dari XyrooRynzz
+//
+//   💡 Cara membacanya:
+//   1. Buka panel / file manager kalian
+//   2. Masuk ke direktori utama script
+//   3. Klik file "readme.md"
+//   4. Pilih "View" atau "Edit" untuk melihat isi panduan
+//
+//   🧠 Disarankan membaca readme.md terlebih dahulu
+//   sebelum menjalankan atau mengedit script.
+//
+//───────────────────────────────────────────────//
+//
+//   ⚡ Fast • Secure • Automated • Stylish ⚡
+//
+//═══════════════════════════════════════════════//
+//
+// 📈━━━━━━━━━━━━━━━━━━━ [ © XyrooRynzz ] ━━━━━━━━━━━━━━━━━━━📉//
+const toMs = require('ms')
+
+// Anti spam titik (dot) untuk WhatsApp (Baileys)
+// Deteksi: jumlah titik berlebih, run "....", rasio titik tinggi, dan command bertitik berulang.
+
+class AntiSpamDots {
+  constructor({
+    enabled = true,
+    maxDots = 12,
+    maxDotRun = 4,
+    maxDotRatio = 0.4,
+    windowMs = 10_000,
+    maxSuspiciousMsgs = 2,
+  } = {}) {
+    this.enabled = enabled;
+    this.cfg = { maxDots, maxDotRun, maxDotRatio, windowMs, maxSuspiciousMsgs };
+    this.state = new Map(); // userId -> { times: number[], count: number }
+  }
+
+  setEnabled(v) { this.enabled = !!v; }
+  toggle() { this.enabled = !this.enabled; return this.enabled; }
+
+  isSuspiciousText(text = "") {
+    if (!text) return false;
+    const dots = (text.match(/\./g) || []).length;
+    if (dots >= this.cfg.maxDots) return true;
+    if (new RegExp(`\\.{${this.cfg.maxDotRun},}`).test(text)) return true;
+    const ratio = dots / Math.max(text.length, 1);
+    if (ratio >= this.cfg.maxDotRatio) return true;
+    // pola ".help .help .help"
+    if (/(\.[a-z0-9_-]{1,20}\b[\s]*){3,}/i.test(text)) return true;
+    return false;
+  }
+
+  _bump(userId, suspicious) {
+    const now = Date.now();
+    const rec = this.state.get(userId) || { times: [], count: 0 };
+    const cutoff = now - this.cfg.windowMs;
+    rec.times = rec.times.filter(t => t >= cutoff);
+    if (suspicious) rec.count += 1;
+    else rec.count = Math.max(0, rec.count - 1);
+    rec.times.push(now);
+    this.state.set(userId, rec);
+    return rec;
+  }
+
+  shouldBlock(userId, text) {
+    if (!this.enabled) return false;
+    const suspicious = this.isSuspiciousText(text);
+    const rec = this._bump(userId, suspicious);
+    return suspicious && rec.count >= this.cfg.maxSuspiciousMsgs;
+  }
+}
+
+// Ekspor instance tunggal supaya state konsisten di seluruh handler
+const DotGuard = new AntiSpamDots();
+module.exports = { AntiSpamDots, DotGuard };
